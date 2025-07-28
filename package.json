@@ -1,18 +1,28 @@
 {
-  "name": "aisms-guardian",
+  "name": "sms-spam-detector-nodejs",
   "version": "1.0.0",
-  "description": "AI SMS Spam Detection System",
+  "description": "SMS Spam Detection API using Node.js with Python ML models",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon server.js"
   },
+  "keywords": [
+    "spam-detection",
+    "machine-learning",
+    "nodejs",
+    "express",
+    "scikit-learn"
+  ],
+  "author": "",
+  "license": "MIT",
   "dependencies": {
-    "express": "^4.18.2",
-    "natural": "^5.2.3",
-    "stopword": "^1.0.11"
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   },
   "engines": {
-    "node": ">=18.x"
+    "node": ">=14.0.0"
   }
 }
